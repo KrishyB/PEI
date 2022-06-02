@@ -1,17 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
-    <script src='main.js'></script>
+<meta charset="utf-8">
+<title>Shop</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        
-    </header>
 
+<div class="wrap">
+
+  <header class="header">
+    <div class="header-inner inner">
+      <div class="logo">
+        <img src="img/logo.jpg" alt="Electro Transport" width="200">
+      </div>
+      <div class="menu">
+        <a class="item" href="index.html">Home</a>
+        <a class="item" href="catalog.html">Catalog</a>
+        <a class="item" href="404.html">Comparison</a>
+        <a class="item" href="contacts.html">Contacts</a>
+      </div>
+      <div class="buttons">
+        <a class="profile button" href="profile.html"></a>
+        <a class="cart button" href="cart.html"></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="main-inner inner">
+    
+      <section class="featured">
+        <h1 class="title">Featured Products</h1>
+        <div class="list">
+          <a class="product" href="single.html">
+            <img src="img/bike1.jpg" alt="Bike 1">
+          </a>
+          <a class="product" href="single.html">
+            <img src="img/bike2.jpg" alt="Bike 2">
+          </a>
+          <a class="product" href="single.html">
+            <img src="img/bike3.jpg" alt="Bike 3">
+          </a>
+        </div>
+        <a class="show-more" href="catalog.html">Show more</a>
+      </section>
+
+      <section class="posts">
+
+        <article class="post">
+          <div class="text">
+            <h2 class="post-title">Green energy is our salvation</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of type
+              and scrambled it to make a type specimen book. It has survived not
+              only five centuries, but also the leap into electronic typesetting,
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like
+            </p>
+            <a class="read-more" href="404.html">Read more</a>
+          </div>
+          <div class="image" style="background-image:url('img/post1.jpg')"></div>
+        </article>
+
+        <article class="post">
+          <div class="text">
+            <h2 class="post-title">Riga &ndash; the City of Nature</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of type
+              and scrambled it to make a type specimen book. It has survived not
+              only five centuries, but also the leap into electronic typesetting,
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like
+            </p>
+            <a class="read-more" href="404.html">Read more</a>
+          </div>
+          <div class="image" style="background-image:url('img/post2.jpg')"></div>
+        </article>
+
+      </section>
+
+    </div>
+  </main>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner inner">
+    <p class="copy">
+      &copy; 2022 "ElectroTransport" electric scooter store
+    </p>
+    <p>All rights reserved</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
 </body>
 </html>
